@@ -1,0 +1,129 @@
+id_rental,rental_name,vehicle_type,alamat,kabupaten/kota,kecamatan,no_hp,rating
+1,My Bike Rental Bali (PT Trans Mina Mulia),Motor,"Jl. Raya Kaba-Kaba, Kaba-Kaba, Kec. Kediri, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Kediri,82146560471.0,5
+2,Rent Car Marga Dewata,Mobil,"Jl. Kebo Iwa Bongan No.19, Bongan, Puseh, Kabupaten Tabanan, Bali 82112",Kabupaten Tabanan,Kec. Puseh,87865498211.0,4.9
+3,Trea Trans,Mobil,"Jl. Kresna 3 banjar pangkung No.25, Delod Peken, Kec. Tabanan, Kabupaten Tabanan, Bali 82113",Kabupaten Tabanan,Kec. Tabanan,88987025766.0,5
+4,Agas Motorbike Rental,Motor,"Pandak Gede, Kec. Kediri, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Kediri,85792291749.0,5
+5,HARYS Rent Car & Tour,Mobil,"Perumahan Graha Luhur Damai Blok Q.29, Pandak Gede, Kec. Kediri, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Kediri,87865564640.0,4.4
+6,Car Rentals Bali,Motor," no 18, Perum Permata Selingsing II, Jl. Raya Munggu-Kapal, Cepaka, Kec. Kediri, Kabupaten Tabanan, Bali 82113",Kabupaten Tabanan,Kec. Kediri,81338747802.0,4.9
+7,Xian Auto Rent,Mobil,"Jl. Pantai Kedungu, Nyitdah, Kec. Kediri, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Kediri,81529252159.0,5
+8,Karbit Bike Adventure Basecamp & Scooter Rental,Motor,"Jalan Pasekan Tanah Lot, Beraban, Kec. Kediri, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Kediri,85936118466.0,4.7
+9,Bagus Bike Rental,Motor,"Jl. Ngurah Beng Cepaka Br, Cepaka, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Cepaka,81338520509.0,5
+10,Ami Bali Rental,Motor,"Jl. Ngurah Beng, Cepaka, Kec. Kediri, Kabupaten Tabanan, Bali 82121",Kabupaten Tabanan,Kec. Kediri,81999500777.0,4.9
+11,Dgbalicarrental,Mobil,"Pemecutan, Kec. Denpasar Bar., Kota Denpasar, Bali 80119",Kota Denpasar,Denpasar Barat,82147510001.0,5
+12,Bali Rent Car INS,Mobil,"Jl. Jaya Giri No.22, Dangin Puri Klod, Kec. Denpasar Tim., Kota Denpasar, Bali 80234",Kota Denpasar,Denpasar Timur,81338950692.0,4.3
+13,Bali Mesari Rental,Mobil,"Jl. Sulatri No.9 A, Kesiman, Kesiman Petilan, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",Kota Denpasar,Denpasar Timur,81296565758.0,4.8
+14,Sewa Mobil di Bali Murah Puri Bali Car Rental,Mobil,"Jl. Bedugul Gg. Cendrawasih No.9a, Sidakarya, Denpasar Selatan, Kota Denpasar, Bali 80224",Kota Denpasar,Denpasar Selatan,81358596061.0,4.8
+15,Bali Bija Car Rental,Mobil,"Jl. Graha Parta Lestari No.8, Padangsambian Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80117",Kota Denpasar,Denpasar Barat,81338362376.0,5
+16,Danu Bali Car Rental,Mobil,"Jalan pura dalem penataran anyar Gg. Palem No.15, Pedungan, Denpasar Selatan, Kota Denpasar, Bali 80222",Kota Denpasar,Denpasar Selatan,85935484584.0,4.4
+17,Bali Hocky Rental,Mobil,"Jl. Kerta Dalem No.X100, Sidakarya, Denpasar Selatan, Kota Denpasar, Bali 80224",Kota Denpasar,Denpasar Selatan,81138200474.0,4.8
+18,Santi Bali Rental Mobil,Mobil,"Jl. Taman Pancing Timur, Pemogan, Denpasar Selatan, Kota Denpasar, Bali 80221",Kota Denpasar,Denpasar Selatan,82146320344.0,4.7
+19,Sewa mobil di bali,Mobil,"Jl. Gelogor Indah No.1B, Pemogan, Denpasar Selatan, Kota Denpasar, Bali 80221",Kota Denpasar,Denpasar Selatan,81558550412.0,-
+20,Putri Bali Rental,Mobil,"Jl. Glogor Carik Gg. Nagamas No.8, Pemogan, Denpasar Selatan, Kota Denpasar, Bali 80221",Kota Denpasar,Denpasar Selatan,81999533488.0,4.8
+21,Bali Rent Motor - Sewa Mobil Bali Murah,Mobil,"Gg. Pisang 17A No.17E, Pemogan, Denpasar Selatan, Kota Denpasar, Bali 80361",Kota Denpasar,Denpasar Selatan,81238382400.0,4.9
+22,CV. Tunjung Bali Rental || sewa mobil murah di bali,Mobil,"Jl. Gunung Himalaya I No.24, Pemecutan Kaja, Kec. Denpasar Utara, Kota Denpasar, Bali 80111",Kota Denpasar,Denpasar Utara,85337266980.0,4.4
+23,Bali Matic Rent Car,Mobil,"Jalan gunung andakasa 999 Denpasar Barat, Padangsambian, Kec. Denpasar Bar., Kota Denpasar, Bali 80117",Kota Denpasar,Denpasar Barat,81237097999.0,4.5
+24,CV. BCR Sewatama Internasional,Mobil,"Gg. Cendana No.69, Padangsambian Kaja, Kec. Denpasar Bar., Kota Denpasar, Bali 80117",Kota Denpasar,Denpasar Barat,8123871684.0,4.9
+25,BBH TRANSPORT & RENT CAR BALI,Mobil,"Jl. Perum Dalung Permai Jl. Damai I No.2 blok A3, Kerobokan Kaja, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,85950031107.0,4.9
+26,VF Rent A Car | Sewa Mobil Bali,Mobil,"Blok UU Jl. Perum Dalung Permai No.62, Kerobokan Kaja, Kuta Utara, Badung Regency, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,85739114333.0,4.9
+27,Karya Rent Car Bali - Sewa Mobil Murah,Mobil,"Jl. Muding Indah V No.18, Kerobokan Kaja, Kec. Kuta Utara, Kabupaten Badung, Bali 80117",Kabupaten Badung,Kec. Kuta Utara,8174125260.0,4.9
+28,Sewa mobil bali Sada Bali Trans,Mobil,"Jl. Muding Indah V No.88, Kerobokan Kaja, Kec. Kuta Utara, Kabupaten Badung, Bali 80363",Kabupaten Badung,Kec. Kuta Utara,81929914414.0,4.8
+29,Bali Rent Car With Driver,Mobil,"Jl. Perum Dalung Permai No.13 Blok X2, Kerobokan Kaja, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,81907317137.0,4.8
+30,Bali Ratih Rental,Mobil,"Jln. Raya buduk perum griya, Jl. Alas Arum No.14, Buduk, Kec. Mengwi, Kabupaten Badung, Bali 80361",Kabupaten Badung,Kec. Mengwi,85100004122.0,4.6
+31,Bali Easy Car Rental,Mobil,"Umasari, Residence Jl. Made Bulet No.27, Dalung, Kec. Kuta Utara, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,81999011100.0,5
+32,SMB Rent Bike Bali,Motor,"956F+8Q3, Jl. Batu Bidak, Kerobokan Kaja, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,89635247020.0,5
+33,Cemagi Transportasi,Mobil,"Jl. Pantai Mengening, Cemagi, Kec. Mengwi, Kabupaten Badung, Bali 80351",Kabupaten Badung,Kec. Mengwi,81805684256.0,
+34,BALINUSRA TRANS,Mobil,"Semarapura Kelod, Kec. Klungkung, Kabupaten Klungkung, Bali 80711",Kabupaten Klukung,Kec. Klukung,817375523.0,5
+35,BBC Bintang Bali Car rental plus sopir,Mobil,"Jl. Flamboyan No.54, Semarapura Kauh, Kec. Klungkung, Kabupaten Klungkung, Bali 80716",Kabupaten Klukung,Kec. Klukung,85935230003.0,5
+36,"SIBA, Sidhi Bagus Bali Tour and Rent",Mobil,"Jl. Prof. Dr. Ida Bagus Mantra No.708, Takmung, Kec. Banjarangkan, Kabupaten Klungkung, Bali 80716",Kabupaten Klukung,Kec. Banjarangkan,8174740738.0,5
+37,Wira Rental Mobil Bali,Mobil,"Jl. Raya Sampalan No.45, Sampalan Tengah, Kec. Dawan, Kabupaten Klungkung, Bali 80761",Kabupaten Klukung,Kec. Dawan,82247148222.0,4.9
+38,Kilik Transport And Car Rental,Mobil,"Dusun Penasan, Tihingan, Kec. Banjarangkan, Kabupaten Klungkung, Bali 80752",Kabupaten Klukung,Kec. Banjarangkan,85739404519.0,5
+39,ER Sewa Mobil Bali,Mobil,"Jl. Sawo Kabeh, Dawan Klod, Kec. Dawan, Kabupaten Klungkung, Bali 80761",Kabupaten Klukung,Kec. Dawan,85937068718.0,5
+40,Sewa Mobil / Tour Nusa Penida Island,Mobil,"Br. Tainbesi, Batununggul, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,81337785561.0,4.9
+41,Rent car tour transport penida,Mobil,"Batununggul, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,87761559554.0,5
+42,Sewa mobil pulau penida,Mobil,"Nusa penida, Ped, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,81246470608.0,5
+43,Ketut motor rental and taxi,Motor,"Jl. Yellow Bridge, Lembongan, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80711",Kabupaten Klukung,Kec. Nusa Penida,81238937678.0,4.9
+44,Rental Scooter Nusa Penida,Motor,"Batununggul, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,85890196485.0,4.9
+45,sewa motor Nusa Penida (Sealoka),Motor,"Jl. Raya Toya Pakeh - Ped, Ped, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,85772238445.0,5
+46,Agira Scooter Rental lembongan,Motor,"8C6P+MWM, Jl. Raya Lembongan, Jungutbatu, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,81237911443.0,5
+47,Motor Bike Rental Nusa Lembongan,Motor,"Lembongan, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,82144115761.0,5
+48,JUNGUTBATU CAR & MOTORBIKE RENTAL,Motor,"Nusa Lembongan, Gg. Nusa indah pelabuhan jungutbatu, Nusa Lembongan, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",Kabupaten Klukung,Kec. Nusa Penida,85205549545.0,5
+49,Amed Bali transport & scooter rental,Motor,"Jl. Raya Amed, Bunutan, Kec. Abang, Kabupaten Karangasem, Bali 80852",Kabupaten Karangasem,Kec. Abang,85792581353.0,5
+50,RENT MOTOR BIKE & TAXI SERVICE,Motor,"Lipah beach, Bunutan, Kec. Abang, Kabupaten Karangasem, Bali 80811",Kabupaten Karangasem,Kec. Abang,87859552549.0,5
+51,Rental Motor Bike kadek,Motor,"Jalan ketut natih Jl. Raya Amed, Bunutan, Kec. Abang, Kabupaten Karangasem, Bali 80852",Kabupaten Karangasem,Kec. Abang,82138745660.0,5
+52,Amed Central Scooter Rental,Motor,"Jl. Raya I Ketut Natih Jemeluk, Jl. Raya Amed, Kec. Abang, Bali 80852",Kabupaten Karangasem,Kec. Abang,81337357411.0,5
+53,Bulan Bike Rental,Motor,"Jl. I Ketut Natih, Purwakerti, Kec. Abang, Kabupaten Karangasem, Bali 80852",Kabupaten Karangasem,Kec. Abang,81938988798.0,5
+54,Sudi's Tourist Service Padangbai,Motor,"Padangbai, Kec. Manggis, Kabupaten Karangasem, Bali 80872",Kabupaten Karangasem,Kec. Manggis,81316218738.0,4.3
+55,Olala Rent Car,Mobil,"Jl. Veteran, Padang Kerta, Kec. Karangasem, Kabupaten Karangasem, Bali 80811",Kabupaten Karangasem,Kec. Karangasem,85237047122.0,4.8
+56,Paca Bali Transport,Mobil,"FCRF+QHG, Jl raya, Lokasari, Kec. Sidemen, Kabupaten Karangasem, Bali 80864",Kabupaten Karangasem,Kec. Sidemen,85238193809.0,5
+57,No Problem Transport,Mobil,"FHR9+5Q, Jl. Raya Candidasa, Sengkidu, Kec. Manggis, Kabupaten Karangasem, Bali",Kabupaten Karangasem,Kec. Manggis,87762637175.0,4.5
+58,CV Bali Lais Rental Mobil,Mobil,"BANJAR DINAS ISEH, Sindu Wati, Kec. Sidemen, Kabupaten Karangasem, Bali 80864",Kabupaten Karangasem,Kec. Sidemen,85738256425.0,4.3
+59,Sewa Mobil Dengan Sopir Dan Wisata Pujatrans,Mobil,"Br, Kebon, Lokasari, Kec. Sidemen, Kabupaten Karangasem, Bali 80864",Kabupaten Karangasem,Kec. Sidemen,81338999799.0,5
+60,Aryajos,Mobil,"Labuan Amuk, Antiga, Kec. Manggis, Kabupaten Karangasem, Bali 80871",Kabupaten Karangasem,Kec. Manggis,81237848837.0,5
+61,Bagio Rental,Mobil,"br tengading, Jl. Andakasa, Antiga, Kec. Manggis, Kabupaten Karangasem, Bali 80871",Kabupaten Karangasem,Kec. Manggis,81936422899.0,5
+62,Rental Motor Jembrana,Motor,"Jl. Udayana No.80, Baler Bale Agung, Kec. Negara, Kabupaten Jembrana, Bali 82212",Kabupaten Jembrana,Kec. Negara,87832222663.0,4.4
+63,"Rent Car Negara, Jembrana (DRON)",Mobil,"dekat SMP 5 Negara, Air Kuning, Kec. Negara, Kabupaten Jembrana, Bali 82218",Kabupaten Jembrana,Kec. Negara,8563766887.0,5
+64,Sewa Mobil + Sopir Jembrana,Mobil,"Jl. Hayam Wuruk No.68, Dangin Tukadaya, Kec. Jembrana, Kabupaten Jembrana, Bali 82218",Kabupaten Jembrana,Kec. Jembrana,,4.4
+65,jasa sewa mobil dan driver di jembrana bali,Mobil,"JJJ4+4GG, Jl. Danau Batur, Tegal Badeng Tim., Kec. Negara, Kabupaten Jembrana, Bali 82215",Kabupaten Jembrana,Kec. Negara,83117925000.0,4
+66,Daffa Bali Rentcar,Mobil,"Gg. III, Gilimanuk, Kec. Melaya, Kabupaten Jembrana, Bali 82252",Kabupaten Jembrana,Kec. Melaya,85738889801.0,5
+67,UD.SURYA toko & rent a car,Mobil,"Ekasari, Kec. Melaya, Kabupaten Jembrana, Bali 82252",Kabupaten Jembrana,Kec. Melaya,81805386001.0,4.8
+68,Sari Pertiwi Rentcar / Sewa Kendaraan,Mobil,"Jl. Pura Taman Sari Pande, Tukadaya, Kec. Melaya, Kabupaten Jembrana, Bali 82252",Kabupaten Jembrana,Kec. Melaya,,5
+69,Haikalrent,Mobil,"Cupel, Kec. Negara, Kabupaten Jembrana, Bali 82218",Kabupaten Jembrana,Kec. Negara,8113847848.0,5
+70,Bali Barat Tourist Transportation,Mobil,"Parking Area Gilimanuk Harbour, Gilimanuk, Melaya, Jembrana Regency, Bali 82252",Kabupaten Jembrana,Kec. Melaya,85935382728.0,4.5
+71,Yudha Rent Car Bangli,Mobil,"Jl. Dasarata, Cempaga, Kec. Bangli, Kabupaten Bangli, Bali 80613",Kabupaten Bangli,Kec. Bangli,81338646911.0,4.8
+72,ND Rent Car Bangli,Mobil,"Kawan, Kec. Bangli, Kabupaten Bangli, Bali 80614",Kabupaten Bangli,Kec. Bangli,85792241081.0,5
+73,DRC Di Rent Car,Mobil,"G8JX+RFV, Jl. Tirta Campuhan, Bebalang, Kec. Bangli, Kabupaten Bangli, Bali 80614",Kabupaten Bangli,Kec. Bangli,85921655550.0,4.5
+74,yoga rent car,Mobil,"G8HX+WPM, Jl. Tirta Sudamala, Bebalang, Kec. Bangli, Kabupaten Bangli, Bali 80614",Kabupaten Bangli,Kec. Bangli,85237759900.0,4.5
+75,Gon Kintamani driver bali,Mobil,"Cloud Hills Glamping, Jl. Windu Sara, Kedisan, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,85831858725.0,5
+76,Odhey Transport,Mobil,"Q92X+3WG, Jl. Pendakian Gn. Batur, Batur Tengah, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,81237451195.0,5
+77,Gon tour and driver,Mobil,"Jl. Songan, Songan A, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,85831858725.0,5
+78,Bagus Rental scooter and bike,Motor,"QCF2+P78, Jl. Serongga, Songan A, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,,4.4
+79,Batur motorbikes rental,Motor,"Jl. Pura Bukit Catu, Songan A, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,87862141641.0,5
+80,Batur Scooter Rental,Motor,"Q9CV+CJ4, Jl. Pura Bukit Catu, Songan A, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,81238577742.0,5
+81,Mount Batur Scooter Rental + Delivery,Motor,"Jl. Serongga, Songan A, Kec. Kintamani, Kabupaten Bangli, Bali 80652",Kabupaten Bangli,Kec. Kintamani,82144535138.0,5
+82,Munduk private driver and tour,Mobil,"Jalan Raya Asah, Gobleg, Kec. Sukasada, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Sukasada,85237237677.0,5
+83,BB driver munduk tour guide taxi munduk,Mobil,"Jl. Banjar Asah, Gobleg, Kec. Banjar, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Banjarangkan,85738255013.0,5
+84,RMS (RENTAL MOBIL SINGARAJA),Mobil,"Blk. A, Banjar Tegal, Kec. Buleleng, Kabupaten Buleleng, Bali 81117",Kabupaten Buleleng,Kec. Buleleng,81953022020.0,4.9
+85,Sewa mobil singaraja,Mobil,"Jl. Jalak Putih No.2, Banyuasri, Kec. Buleleng, Kabupaten Buleleng, Bali 81116",Kabupaten Buleleng,Kec. Buleleng,81999720653.0,4.5
+86,RENTCAR SINGARAJA AR,Mobil,"V3GF+9PH, Baktiseraga, Kec. Buleleng, Kabupaten Buleleng, Bali 81119",Kabupaten Buleleng,Kec. Buleleng,87856328333.0,3.7
+87,ND Rent Car Tour,Mobil,"Jl. Ngurah Rai, Singaraja, Kec. Buleleng, Kabupaten Buleleng, Bali 81113",Kabupaten Buleleng,Kec. Buleleng,85792241081.0,4.1
+88,Danu Bali Car Rental 2,Mobil,"perumahan griya panji asri, Jl. Anggrek blok d2, Panji, Kec. Sukasada, Kabupaten Buleleng, Bali 81161",Kabupaten Buleleng,Kec. Sukasada,87866258226.0,4.7
+89,Arum Trans,Mobil,"Jl. Pulau Batam, Banyuning, Kec. Buleleng, Kabupaten Buleleng, Bali 81112",Kabupaten Buleleng,Kec. Buleleng,85102467585.0,4.7
+90,MANDIRI TOURIST SERVICE,Motor,"R2VM+5JF, Jl. Seririt- Singaraja, banyualit, Kec. Buleleng, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Buleleng,82339528747.0,5
+91,Nawasena Rent,Mobil,"Jl. Pulau Komodo Gang Ugrasena No.1, Banyuning Tengah, Singaraja, Kabupaten Buleleng, Bali 81119",Kabupaten Buleleng,Kec. Buleleng,82144442141.0,5
+92,Cobe Bike Rent,Motor,"Jalan Anggrek I No.2, Singaraja, Kec. Buleleng, Kabupaten Buleleng, Bali 81114",Kabupaten Buleleng,Kec. Buleleng,81999034707.0,5
+93,chandra rentcar,Mobil,"V4R4+HM3, Penarukan, Kec. Buleleng, Kabupaten Buleleng, Bali 81119",Kabupaten Buleleng,Kec. Buleleng,88219303689.0,5
+94,Bali Bali Bike Rental,Motor,"Jl. Mas Lovina No.1, Anturan, Kalibukbuk, Kabupaten Buleleng, Bali 81119",Kabupaten Buleleng,Kec. Buleleng,8123930979.0,4.9
+95,Bikago Motorbike Rental - Lovina,Motor,"Jl. A.A. Pandji Tisna No.61, Kaliasem, Kec. Banjar, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Banjar,3614741753.0,4.6
+96,Sovina Scooter & Bike rent,Motor,"Jl. Mawar, Anturan, Kec. Buleleng, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Buleleng,81915617341.0,3.1
+97,Buahan Gianyar Rent Car,Mobil,"J6CR+R9, Buahan, Kec. Payangan, Kabupaten Gianyar, Bali",Kabupaten Gianyar,Kec. Payangan,85237443551.0,5
+98,Surya Agung Bali rental,Motor,"Br. Pengembungan, Pejeng Kangin, Kec. Tampaksiring, Kabupaten Gianyar, Bali 80552",Kabupaten Gianyar,Kec. Tampaksiring,81805529888.0,5
+99,Bali Nice Rental Scooter,Motor,"Jl. Sri Wedari, Tegallalang, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,87861764976.0,5
+100,Dita rent car tour and service,Mobil,"Bakbakan, Kec. Gianyar, Kabupaten Gianyar, Bali 80515",Kabupaten Gianyar,Kec. Gianyar,81999497165.0,5
+101,joko Balitransport,Mobil,"F8J4+XPG, Jl. Dewi Sri, Siangan, Kec. Gianyar, Kabupaten Gianyar, Bali 80515",Kabupaten Gianyar,Kec. Gianyar,81338513139.0,5
+102,PT. Family Permana Rent Bike Ubud,Motor,"F7GF+28Q, Jl. Raya Teges, Peliatan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,81936284546.0,4.9
+103,Bali happy rental ubud,Motor,"F7GC+5JG, Jl. Cok Rai Pudak, Peliatan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,,5
+104,Bali Cheap Car,Mobil,"Jl. Goutama Street No.16, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,8123932556.0,4.8
+105,Bali Car Rental - BaliCarFinder.com,Mobil,"Jalan Cempaka, Br Kumbuh, Desa Mas, Ubud, MAS, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,8123862620.0,4.7
+106,DIKA Rental & RJM Motor,Motor,"Jl. Raya Semebaung Jl. Raya Wanayu No.16, Bedulu, Kec. Blahbatuh, Kabupaten Gianyar, Bali 80581",Kabupaten Gianyar,Kec. Blahbatuh,81936099535.0,4.9
+107,Ubud Rent MotorBike & Scooter Rental - P.bawa,Motor,"Jl. Jero Gadung No.90, kutuh, Petulu, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,82247834453.0,5
+108,Ubud scooter rental,Motor,"Jl. Hanoman No.30a, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,81547339979.0,4.9
+109,cahya ubud rental motorbike,Motor,"Jl. Sri Wedari No.14-33, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,81239481933.0,5
+110,Aloha Ubud Scooter Rental,Motor,"Jl. Sri Wedari No.15, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,82146429898.0,4.9
+111,Arka Ubud Scooter Rental,Motor,"Jl. Bimamuka No.4, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,81236954642.0,4.9
+112,Wulan Sari Scooter and Motor Bike Rental,Motor,"Jl. Raya Sanggingan, Kedewatan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80561",Kabupaten Gianyar,Kec. Ubud,87761713909.0,5
+113,"RAJESH RENTCAR, BIKE RENTAL, TOUR & TRANSPORT Bali (OFFICIAL)",Mobil,"Jl. Sandat, Samsam, Kec. Kerambitan, Kabupaten Tabanan, Bali 82111",Kabupaten Tabanan,Kec. Kerambitan,87762619666.0,4.8
+113,"RAJESH RENTCAR, BIKE RENTAL, TOUR & TRANSPORT Bali (OFFICIAL)",Motor,"Jl. Sandat, Samsam, Kec. Kerambitan, Kabupaten Tabanan, Bali 82111",Kabupaten Tabanan,Kec. Kerambitan,87762619666.0,4.8
+114,THE QUEEN BALI RENTCAR & RENTBIKE,Mobil,"Jl. Pulau Misol No.61, Dauh Puri Kauh, Kec. Denpasar Bar., Kota Denpasar, Bali 80113",Kota Denpasar,Denpasar Barat,82228000680.0,5
+114,THE QUEEN BALI RENTCAR & RENTBIKE,Motor,"Jl. Pulau Misol No.61, Dauh Puri Kauh, Kec. Denpasar Bar., Kota Denpasar, Bali 80113",Kota Denpasar,Denpasar Barat,82228000680.0,5
+115,Bali Car Rental Service,Mobil,"Jl. Pantai Mengening, Cemagi, Kec. Mengwi, Kabupaten Badung, Bali",Kabupaten Badung,Kec. Mengwi,81337957660.0,5
+115,Bali Car Rental Service,Motor,"Jl. Pantai Mengening, Cemagi, Kec. Mengwi, Kabupaten Badung, Bali",Kabupaten Badung,Kec. Mengwi,81337957660.0,5
+116,3 Monkeys Rental Bali,Mobil,"Jl. Kubu Gn. No.11, Dalung, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,85899992703.0,
+116,3 Monkeys Rental Bali,Motor,"Jl. Kubu Gn. No.11, Dalung, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",Kabupaten Badung,Kec. Kuta Utara,85899992703.0,
+117,Persewaan Motor & Mobil( Duta Rent ),Mobil,"CFP2+WMQ, Jl. Pantai, Kp. Kusamba, Kec. Dawan, Kabupaten Klungkung, Bali 80761",Kabupaten Klukung,Kec. Dawan,81234575772.0,5
+117,Persewaan Motor & Mobil( Duta Rent ),Motor,"CFP2+WMQ, Jl. Pantai, Kp. Kusamba, Kec. Dawan, Kabupaten Klungkung, Bali 80761",Kabupaten Klukung,Kec. Dawan,81234575772.0,5
+118,Rental scooter & car bali utara murah,Mobil,"Jl. Tunjung No.42, Kaliasem, Kec. Banjar, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Banjar,81338555308.0,5
+118,Rental scooter & car bali utara murah,Motor,"Jl. Tunjung No.42, Kaliasem, Kec. Banjar, Kabupaten Buleleng, Bali 81152",Kabupaten Buleleng,Kec. Banjar,81338555308.0,5
+119,"Scooter Rental, Bike Rental, Car Rental (Bangkoks)",Mobil,"Jl. Hanoman No.30, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,82340985732.0,4.7
+119,"Scooter Rental, Bike Rental, Car Rental (Bangkoks)",Motor,"Jl. Hanoman No.30, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,82340985732.0,4.7
+120,"Darma Putra Bali Scooter Rental, Car Rental & Motorbike Rental Bali - Main Office",Mobil,"Jl. Jembawan No.4, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,82236654002.0,4.8
+120,"Darma Putra Bali Scooter Rental, Car Rental & Motorbike Rental Bali - Main Office",Motor,"Jl. Jembawan No.4, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",Kabupaten Gianyar,Kec. Ubud,82236654002.0,4.8

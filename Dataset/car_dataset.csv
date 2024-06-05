@@ -1,0 +1,43 @@
+id_vehicle,vehicle_name,engine_type,power,torque,colors,fuel_capacity,transmission
+MBL001,Suzuki Ertiga,1.5L VVT Petrol,103 hp,138 Nm,"Black",45 liters,5-speed Manual / 4-speed Automatic
+MBL002,Suzuki Ertiga,1.5L VVT Petrol,103 hp,138 Nm,"Silver",45 liters,5-speed Manual / 4-speed Automatic
+MBL003,Suzuki Ertiga,1.5L VVT Petrol,103 hp,138 Nm,"White",45 liters,5-speed Manual / 4-speed Automatic
+MBL004,Honda Mobilio,1.5L i-VTEC Petrol,118 hp,145 Nm,"Black",42 liters,6-speed Manual / CVT
+MBL005,Honda Mobilio,1.5L i-VTEC Petrol,118 hp,145 Nm,"White",42 liters,6-speed Manual / CVT
+MBL006,Honda Mobilio,1.5L i-VTEC Petrol,118 hp,145 Nm,"Red",42 liters,6-speed Manual / CVT
+MBL007,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,"Black",42 liters,6-speed Manual / CVT
+MBL008,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,"White",42 liters,6-speed Manual / CVT
+MBL009,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,"Silver",42 liters,6-speed Manual / CVT
+MBL0010,Honda Brio,1.2L i-VTEC Petrol,88 hp,110 Nm,"Black",35 liters,5-speed Manual / CVT
+MBL0011,Honda Brio,1.2L i-VTEC Petrol,88 hp,110 Nm,"White",35 liters,5-speed Manual / CVT
+MBL0012,Honda Brio,1.2L i-VTEC Petrol,88 hp,110 Nm,"Red",35 liters,5-speed Manual / CVT
+MBL0013,Nissan Grand Livina,1.5L Petrol,104 hp,144 Nm,"Black",42 liters,5-speed Manual
+MBL0014,Nissan Grand Livina,1.5L Petrol,104 hp,144 Nm,"White",42 liters,5-speed Manual
+MBL0015,Nissan Grand Livina,1.5L Petrol,104 hp,144 Nm,"Silver",42 liters,5-speed Manual
+MBL0016,Mitsubishi Xpander,1.5L MIVEC Petrol,103 hp,141 Nm,"Black",45 liters,5-speed Manual / 4-speed Automatic
+MBL0017,Mitsubishi Xpander,1.5L MIVEC Petrol,103 hp,141 Nm,"White",45 liters,5-speed Manual / 4-speed Automatic
+MBL0018,Mitsubishi Xpander,1.5L MIVEC Petrol,103 hp,141 Nm,"Red",45 liters,5-speed Manual / 4-speed Automatic
+MBL0019,Toyota Avanza,1.5L Petrol,103 hp,136 Nm,"Black",45 liters,5-speed Manual / 4-speed Automatic
+MBL0020,Toyota Avanza,1.5L Petrol,103 hp,136 Nm,"White",45 liters,5-speed Manual / 4-speed Automatic
+MBL0021,Toyota Avanza,1.5L Petrol,103 hp,136 Nm,"Silver",45 liters,5-speed Manual / 4-speed Automatic
+MBL0022,Toyota Rush,1.5L Petrol,103 hp,136 Nm,"White",45 liters,5-speed Manual / 4-speed Automatic
+MBL0023,Toyota Rush,1.5L Petrol,103 hp,136 Nm,"Red",45 liters,5-speed Manual / 4-speed Automatic
+MBL0024,Toyota Rush,1.5L Petrol,103 hp,136 Nm,"Black",45 liters,5-speed Manual / 4-speed Automatic
+MBL0025,Toyota Innova,2.0L Petrol,134 hp,182 Nm,"White",55 liters,5-speed Manual / 6-speed Automatic
+MBL0026,Toyota Innova,2.0L Petrol,134 hp,182 Nm,"Silver",55 liters,5-speed Manual / 6-speed Automatic
+MBL0027,Toyota Innova,2.0L Petrol,134 hp,182 Nm,"Black",55 liters,5-speed Manual / 6-speed Automatic
+MBL0028,Daihatsu Terios,1.5L Petrol,103 hp,136 Nm,"Red",45 liters,5-speed Manual / 4-speed Automatic
+MBL0029,Daihatsu Terios,1.5L Petrol,103 hp,136 Nm,"White",45 liters,5-speed Manual / 4-speed Automatic
+MBL0030,Daihatsu Terios,1.5L Petrol,103 hp,136 Nm,"Black",45 liters,5-speed Manual / 4-speed Automatic
+MBL0031,Toyota Kijang Innova,2.0L Petrol,134 hp,182 Nm,"Black",55 liters,5-speed Manual / 6-speed Automatic
+MBL0032,Toyota Kijang Innova,2.0L Petrol,134 hp,182 Nm,"White",55 liters,5-speed Manual / 6-speed Automatic
+MBL0033,Toyota Kijang Innova,2.0L Petrol,134 hp,182 Nm,"Silver",55 liters,5-speed Manual / 6-speed Automatic
+MBL0034,Toyota Fortuner,2.7L Petrol,163 hp,245 Nm,"White",80 liters,5-speed Manual / 6-speed Automatic
+MBL0035,Toyota Fortuner,2.7L Petrol,163 hp,245 Nm,"Black",80 liters,5-speed Manual / 6-speed Automatic
+MBL0036,Toyota Fortuner,2.7L Petrol,163 hp,245 Nm,"Red",80 liters,5-speed Manual / 6-speed Automatic
+MBL0037,Mitsubishi Pajero Sport,2.4L MIVEC Diesel,181 hp,430 Nm,"Black",68 liters,6-speed Manual / Automatic
+MBL0038,Mitsubishi Pajero Sport,2.4L MIVEC Diesel,181 hp,430 Nm,"White",68 liters,6-speed Manual / Automatic
+MBL0039,Mitsubishi Pajero Sport,2.4L MIVEC Diesel,181 hp,430 Nm,"Silver",68 liters,6-speed Manual / Automatic
+MBL0040,Daihatsu Xenia,1.3L Petrol,95 hp,120 Nm,"Black",45 liters,5-speed Manual
+MBL0041,Daihatsu Xenia,1.3L Petrol,95 hp,120 Nm,"White",45 liters,5-speed Manual
+MBL0042,Daihatsu Xenia,1.3L Petrol,95 hp,120 Nm,"Red",45 liters,5-speed Manual

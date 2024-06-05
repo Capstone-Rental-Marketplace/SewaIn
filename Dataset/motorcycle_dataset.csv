@@ -1,0 +1,40 @@
+id_vehicle,vehicle_name,engine_type,power,torque,colors,fuel_capacity,transmission
+MTR001,Yamaha XMAX,"Liquid-cooled, 4-stroke",27.6 hp,29.0 Nm,"Black",13 liters,CVT
+MTR002,Yamaha XMAX,"Liquid-cooled, 4-stroke",27.6 hp,29.0 Nm,"White",13 liters,CVT
+MTR003,Yamaha XMAX,"Liquid-cooled, 4-stroke",27.6 hp,29.0 Nm,"Blue",13 liters,CVT
+MTR004,Honda ADV,"Liquid-cooled, 4-stroke",14.5 hp,13.8 Nm,"White",8 liters,CVT
+MTR005,Honda ADV,"Liquid-cooled, 4-stroke",14.5 hp,13.8 Nm,"Black",8 liters,CVT
+MTR006,Honda ADV,"Liquid-cooled, 4-stroke",14.5 hp,13.8 Nm,"Red",8 liters,CVT
+MTR007,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,"White",4.2 liters,CVT
+MTR008,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,"Pink",4.2 liters,CVT
+MTR009,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,"Black",4.2 liters,CVT
+MTR0010,Kawasaki Ninja,"Liquid-cooled, 4-stroke",127 hp,70.8 Nm,"Black",17 liters,6-speed manual
+MTR0011,Kawasaki Ninja,"Liquid-cooled, 4-stroke",127 hp,70.8 Nm,"Red",17 liters,6-speed manual
+MTR0012,Kawasaki Ninja,"Liquid-cooled, 4-stroke",127 hp,70.8 Nm,"Green",17 liters,6-speed manual
+MTR0013,Honda CBR,"Liquid-cooled, 4-stroke",94 hp,64 Nm,"Red",15.4 liters,6-speed manual
+MTR0014,Honda CBR,"Liquid-cooled, 4-stroke",94 hp,64 Nm,"Black",15.4 liters,6-speed manual
+MTR0015,Honda CBR,"Liquid-cooled, 4-stroke",94 hp,64 Nm,"White",15.4 liters,6-speed manual
+MTR0016,Yamaha Lexi,"Liquid-cooled, 4-stroke",11.7 hp,11.3 Nm,"Blue",4.2 liters,CVT
+MTR0017,Yamaha Lexi,"Liquid-cooled, 4-stroke",11.7 hp,11.3 Nm,"Black",4.2 liters,CVT
+MTR0018,Yamaha Lexi,"Liquid-cooled, 4-stroke",11.7 hp,11.3 Nm,"Silver",4.2 liters,CVT
+MTR0019,Honda Vario,"Liquid-cooled, 4-stroke",13.1 hp,13.4 Nm,"Black",5.5 liters,CVT
+MTR0020,Honda Vario,"Liquid-cooled, 4-stroke",13.1 hp,13.4 Nm,"White",5.5 liters,CVT
+MTR0021,Honda Vario,"Liquid-cooled, 4-stroke",13.1 hp,13.4 Nm,"Blue",5.5 liters,CVT
+MTR0022,Honda PCX,"Liquid-cooled, 4-stroke",15.8 hp,14.7 Nm,"White",8 liters,CVT
+MTR0023,Honda PCX,"Liquid-cooled, 4-stroke",15.8 hp,14.7 Nm,"Black",8 liters,CVT
+MTR0024,Honda PCX,"Liquid-cooled, 4-stroke",15.8 hp,14.7 Nm,"Red",8 liters,CVT
+MTR0025,Yamaha Aerox,"Liquid-cooled, 4-stroke",15 hp,13.8 Nm,"Black",5.5 liters,CVT
+MTR0026,Yamaha Aerox,"Liquid-cooled, 4-stroke",15 hp,13.8 Nm,"White",5.5 liters,CVT
+MTR0027,Yamaha Aerox,"Liquid-cooled, 4-stroke",15 hp,13.8 Nm,"Yellow",5.5 liters,CVT
+MTR0028,Yamaha MT-15,"Liquid-cooled, 4-stroke",19 hp,14.7 Nm,"White",10 liters,6-speed manual
+MTR0029,Yamaha MT-15,"Liquid-cooled, 4-stroke",19 hp,14.7 Nm,"Black",10 liters,6-speed manual
+MTR0030,Yamaha MT-15,"Liquid-cooled, 4-stroke",19 hp,14.7 Nm,"Blue",10 liters,6-speed manual
+MTR0031,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,"White",4.2 liters,CVT
+MTR0032,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,"Black",4.2 liters,CVT
+MTR0033,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,"Pink",4.2 liters,CVT
+MTR0034,Yamaha NMAX,"Liquid-cooled, 4-stroke",15.1 hp,13.9 Nm,"White",7.1 liters,CVT
+MTR0035,Yamaha NMAX,"Liquid-cooled, 4-stroke",15.1 hp,13.9 Nm,"Black",7.1 liters,CVT
+MTR0036,Yamaha NMAX,"Liquid-cooled, 4-stroke",15.1 hp,13.9 Nm,"Grey",7.1 liters,CVT
+MTR0037,Yamaha MT-25,"Liquid-cooled, 4-stroke",35.5 hp,23.6 Nm,"White",14 liters,6-speed manual
+MTR0038,Yamaha MT-25,"Liquid-cooled, 4-stroke",35.5 hp,23.6 Nm,"Black",14 liters,6-speed manual
+MTR0039,Yamaha MT-25,"Liquid-cooled, 4-stroke",35.5 hp,23.6 Nm,"Red",14 liters,6-speed manual
