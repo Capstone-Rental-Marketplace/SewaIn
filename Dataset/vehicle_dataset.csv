@@ -1,4 +1,4 @@
-id_vehicle,vehicle_name,engine_type,power,torque,colors,fuel_capacity,transmission,vehicle_type, number_of_seats,brand,model
+id_vehicle,vehicle_name,engine_type,power,torque,colors,fuel_capacity,transmission,vehicle_type,number_of_seats,brand,model
 MBL001,Suzuki Ertiga,1.5L VVT Petrol,103 hp,138 Nm,Black,45 liters,5-speed Manual / 4-speed Automatic,Mobil,7,Suzuki,Ertiga
 MBL002,Suzuki Ertiga,1.5L VVT Petrol,103 hp,138 Nm,Silver,45 liters,5-speed Manual / 4-speed Automatic,Mobil,7,Suzuki,Ertiga
 MBL003,Suzuki Ertiga,1.5L VVT Petrol,103 hp,138 Nm,White,45 liters,5-speed Manual / 4-speed Automatic,Mobil,7,Suzuki,Ertiga
