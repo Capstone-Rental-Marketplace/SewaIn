@@ -1,23 +1,19 @@
-# Gunakan image Node.js versi LTS sebagai base image
-FROM node:14
+FROM node:22
 
-# Set working directory di dalam container
+# Buat direktori kerja
 WORKDIR /usr/src/app
 
-# Salin package.json dan package-lock.json untuk menginstall dependensi
+# Salin file package.json dan package-lock.json
 COPY package*.json ./
 
-# Install dependensi
+# Instal dependensi
 RUN npm install
 
-# Salin seluruh kode aplikasi ke dalam container
+# Salin semua file proyek
 COPY . .
 
-# Expose port yang digunakan oleh aplikasi
-EXPOSE 3000
+# Ekspose port yang digunakan aplikasi
+EXPOSE 8080
 
-# Secret Key JWT
-ENV JWT_SECRET='sewain2024'
-
-# Perintah untuk menjalankan aplikasi ketika container dijalankan
+# Jalankan perintah untuk memulai server
 CMD ["npm", "start"]
