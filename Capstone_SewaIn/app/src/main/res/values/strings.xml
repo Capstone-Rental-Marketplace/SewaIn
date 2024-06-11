@@ -18,4 +18,8 @@
     <string name="reg_toko_nama_lengkap">Nama Lengkap</string>
     <string name="nik">NIK</string>
     <string name="gambarktp">gambarktp</string>
+    <string name="title_activity_profil_toko">ProfilToko</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
