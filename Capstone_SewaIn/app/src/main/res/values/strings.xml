@@ -17,4 +17,5 @@
     <string name="btn_regstr_toko">SELANJUTNYA</string>
     <string name="reg_toko_nama_lengkap">Nama Lengkap</string>
     <string name="nik">NIK</string>
+    <string name="gambarktp">gambarktp</string>
 </resources>
