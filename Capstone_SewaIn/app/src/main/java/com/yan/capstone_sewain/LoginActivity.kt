@@ -7,6 +7,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.yan.capstone_sewain.admintoko.RegisterToko
 
 class LoginActivity : AppCompatActivity() {
 
@@ -15,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var loginButton: Button
     private lateinit var forgetPasswordTextView: TextView
     private lateinit var registerTextView: TextView
+    private lateinit var registerTextView1: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +27,7 @@ class LoginActivity : AppCompatActivity() {
         loginButton = findViewById(R.id.btn_L)
         forgetPasswordTextView = findViewById(R.id.forgetpassword)
         registerTextView = findViewById(R.id.txt_signup)
+        registerTextView1 = findViewById(R.id.txt_signup_toko)
 
         loginButton.setOnClickListener {
             val email = emailEditText.text.toString()
@@ -46,6 +49,11 @@ class LoginActivity : AppCompatActivity() {
         registerTextView.setOnClickListener {
             // Navigate to SignupActivity
             val intent = Intent(this, SignupActivity::class.java)
+            startActivity(intent)
+        }
+        registerTextView1.setOnClickListener {
+            // Navigate to SignupActivity
+            val intent = Intent(this, RegisterToko::class.java)
             startActivity(intent)
         }
     }

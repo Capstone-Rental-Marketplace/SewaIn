@@ -73,8 +73,8 @@
             android:layout_height="wrap_content"
             android:textColor="@color/blue"
             android:fontFamily="@font/manroperegular"
-            android:text="Forger Password?"
-            android:textSize="16dp" />
+            android:text="@string/forger_password"
+            android:textSize="14dp" />
 
 
     </LinearLayout>
@@ -95,6 +95,7 @@
         app:layout_constraintTop_toBottomOf="@id/ly1" />
 
     <LinearLayout
+        android:id="@+id/ly2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -122,5 +123,37 @@
             android:fontFamily="@font/manropebold"
             android:text="Sign Up"
             android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ly2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:fontFamily="@font/manroperegular"
+            android:text="Jadilah Bagian Dari Kami!"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_signup_toko"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:paddingBottom="5dp"
+            android:fontFamily="@font/manropebold"
+            android:text="@string/daftarkan_toko"
+            android:textColor="@color/blue" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
