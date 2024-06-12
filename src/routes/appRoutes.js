@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const authHandler = require('../handlers/authHandler');
 const userHandler = require('../handlers/userHandler');
 const searchHandler = require('../handlers/searchHandler');
