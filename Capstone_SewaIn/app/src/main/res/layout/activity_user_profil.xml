@@ -131,11 +131,22 @@
         android:text="Pesanan Saya"/>
 
     <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/line1"
+        android:layout_width="410dp"
+        android:layout_height="11dp"
         android:background="@drawable/straightline"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-156dp" />
+        app:layout_constraintTop_toBottomOf="@id/pesanan_saya"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/line1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="8dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

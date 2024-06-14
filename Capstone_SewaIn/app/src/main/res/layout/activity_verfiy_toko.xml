@@ -44,24 +44,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_verifikasi_register_toko" />
 
-    <Button
-        android:id="@+id/btn_select_photo"
-        android:layout_width="119dp"
-        android:layout_height="45dp"
-        android:fontFamily="@font/manroperegular"
-        android:text="Tambahkan Gambar"
-        android:textAlignment="center"
-        android:textSize="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp" />
 
     <TextView
         android:layout_width="207dp"
         android:layout_height="122dp"
         android:text="Mohon mengambil foto KTP-mu. Informasi di KTP harus terlihat jelas di foto-mu. Pastikan nama dan NIK sesuai dengan yang tertera pada KTP."
         tools:layout_editor_absoluteX="172dp"
+        android:textSize="12dp"
+        android:fontFamily="@font/manroperegular"
         tools:layout_editor_absoluteY="143dp" />
 
     <LinearLayout
@@ -70,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/btn_select_photo"
+        app:layout_constraintTop_toBottomOf="@id/img_ktp"
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
@@ -134,7 +124,7 @@
         android:text="Selesai"
         android:textColor="@color/white"
         android:textSize="14dp"
-        android:fontFamily="@font/manroperegular"
+        android:fontFamily="@font/manropebold"
         android:textAlignment="center"
         android:background="@drawable/border"
         app:layout_constraintTop_toBottomOf="@id/ly3"
