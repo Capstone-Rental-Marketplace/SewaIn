@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Capstone_SewaIn"
         tools:targetApi="31">
         <activity
+            android:name=".profile.EditProfil"
+            android:exported="false" />
+        <activity
+            android:name=".profile.UserProfil"
+            android:exported="false" />
+        <activity
             android:name=".admintoko.ProfilToko"
             android:exported="false"
             android:label="@string/title_activity_profil_toko" />
@@ -39,7 +45,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
