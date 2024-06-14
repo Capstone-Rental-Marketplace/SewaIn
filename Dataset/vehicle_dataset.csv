@@ -7,7 +7,7 @@ MBL005,Honda Mobilio,1.5L i-VTEC Petrol,118 hp,145 Nm,White,42 liters,6-speed Ma
 MBL006,Honda Mobilio,1.5L i-VTEC Petrol,118 hp,145 Nm,Red,42 liters,6-speed Manual / CVT,Mobil,7,Honda,Mobilio
 MBL007,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,Black,42 liters,6-speed Manual / CVT,Mobil,7,Honda,BR-V
 MBL008,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,White,42 liters,6-speed Manual / CVT,Mobil,7,Honda,BR-V
-MBL009,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,Silver,42 liters,6-speed Manual / CVT,Mobil,7,Honda,BR-V
+MBL009,Honda BR-V,1.5L i-VTEC Petrol,118 hp,145 Nm,Red,42 liters,6-speed Manual / CVT,Mobil,7,Honda,BR-V
 MBL0010,Honda Brio,1.2L i-VTEC Petrol,88 hp,110 Nm,Black,35 liters,5-speed Manual / CVT,Mobil,5,Honda,Brio
 MBL0011,Honda Brio,1.2L i-VTEC Petrol,88 hp,110 Nm,White,35 liters,5-speed Manual / CVT,Mobil,5,Honda,Brio
 MBL0012,Honda Brio,1.2L i-VTEC Petrol,88 hp,110 Nm,Red,35 liters,5-speed Manual / CVT,Mobil,5,Honda,Brio
@@ -48,7 +48,7 @@ MTR004,Honda ADV,"Liquid-cooled, 4-stroke",14.5 hp,13.8 Nm,White,8 liters,CVT,Mo
 MTR005,Honda ADV,"Liquid-cooled, 4-stroke",14.5 hp,13.8 Nm,Black,8 liters,CVT,Motor,2,Honda,ADV
 MTR006,Honda ADV,"Liquid-cooled, 4-stroke",14.5 hp,13.8 Nm,Red,8 liters,CVT,Motor,2,Honda,ADV
 MTR007,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,White,4.2 liters,CVT,Motor,2,Honda,Beat
-MTR008,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,Pink,4.2 liters,CVT,Motor,2,Honda,Beat
+MTR008,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,Red,4.2 liters,CVT,Motor,2,Honda,Beat
 MTR009,Honda Beat,"Air-cooled, 4-stroke",8.8 hp,9.3 Nm,Black,4.2 liters,CVT,Motor,2,Honda,Beat
 MTR0010,Kawasaki Ninja,"Liquid-cooled, 4-stroke",127 hp,70.8 Nm,Black,17 liters,6-speed manual,Motor,2,Kawasaki,Ninja
 MTR0011,Kawasaki Ninja,"Liquid-cooled, 4-stroke",127 hp,70.8 Nm,Red,17 liters,6-speed manual,Motor,2,Kawasaki,Ninja
@@ -73,7 +73,7 @@ MTR0029,Yamaha MT-15,"Liquid-cooled, 4-stroke",19 hp,14.7 Nm,Black,10 liters,6-s
 MTR0030,Yamaha MT-15,"Liquid-cooled, 4-stroke",19 hp,14.7 Nm,Blue,10 liters,6-speed manual,Motor,2,Yamaha,MT-15
 MTR0031,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,White,4.2 liters,CVT,Motor,2,Honda,Scoopy
 MTR0032,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,Black,4.2 liters,CVT,Motor,2,Honda,Scoopy
-MTR0033,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,Pink,4.2 liters,CVT,Motor,2,Honda,Scoopy
+MTR0033,Honda Scoopy,"Air-cooled, 4-stroke",8.8 hp,9.4 Nm,Red,4.2 liters,CVT,Motor,2,Honda,Scoopy
 MTR0034,Yamaha NMAX,"Liquid-cooled, 4-stroke",15.1 hp,13.9 Nm,White,7.1 liters,CVT,Motor,2,Yamaha,NMAX
 MTR0035,Yamaha NMAX,"Liquid-cooled, 4-stroke",15.1 hp,13.9 Nm,Black,7.1 liters,CVT,Motor,2,Yamaha,NMAX
 MTR0036,Yamaha NMAX,"Liquid-cooled, 4-stroke",15.1 hp,13.9 Nm,Grey,7.1 liters,CVT,Motor,2,Yamaha,NMAX
