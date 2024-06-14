@@ -8,6 +8,15 @@
     tools:context=".admintoko.VerfiyTokoActivity"
     android:background="@drawable/background">
 
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="16dp"
+        app:layout_constraintLeft_toLeftOf="i"
+        android:src="@drawable/baseline_arrow_back_24"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="18dp" />
+
     <TextView
         android:id="@+id/txt_vfrfy_register_toko"
         android:layout_width="wrap_content"
@@ -30,29 +39,29 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="90dp"/>
 
+
     <ImageView
         android:id="@+id/img_ktp"
-        android:layout_width="135dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/ic_thumbnail_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/addimage"
+        android:backgroundTint="@color/blue"
         android:contentDescription="@string/gambarktp"
         android:scaleType="centerCrop"
-        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_verifikasi_register_toko" />
 
-
     <TextView
-        android:layout_width="207dp"
-        android:layout_height="122dp"
-        android:text="Mohon mengambil foto KTP-mu. Informasi di KTP harus terlihat jelas di foto-mu. Pastikan nama dan NIK sesuai dengan yang tertera pada KTP."
-        tools:layout_editor_absoluteX="172dp"
-        android:textSize="12dp"
+        android:layout_width="215dp"
+        android:layout_height="88dp"
         android:fontFamily="@font/manroperegular"
-        tools:layout_editor_absoluteY="143dp" />
+        android:text="Mohon mengambil foto KTP-mu. Informasi di KTP harus terlihat jelas di foto-mu. Pastikan nama dan NIK sesuai dengan yang tertera pada KTP."
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="137dp" />
 
     <LinearLayout
         android:id="@+id/ly3"

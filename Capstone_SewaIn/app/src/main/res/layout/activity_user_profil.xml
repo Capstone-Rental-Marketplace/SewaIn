@@ -8,7 +8,7 @@
     tools:context=".profile.UserProfil">
 
     <LinearLayout
-        android:id="@+id/ly4"
+        android:id="@+id/ly1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -29,17 +29,17 @@
             android:textAlignment="center" />
 
         <ImageView
-            android:layout_width="35dp"
+            android:layout_width="30dp"
             android:layout_height="35dp"
-            android:src="@drawable/out"
+            android:src="@drawable/logout"
             android:layout_marginTop="16dp"
-            android:layout_marginLeft="160dp"/>
+            android:layout_marginStart="160dp"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ly5"
-        app:layout_constraintTop_toBottomOf="@id/ly4"
+        android:id="@+id/ly2"
+        app:layout_constraintTop_toBottomOf="@id/ly1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -96,11 +96,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ly6"
+        android:id="@+id/ly3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/ly5">
+        app:layout_constraintTop_toBottomOf="@id/ly2">
 
         <ImageView
             android:layout_width="35dp"
@@ -121,7 +121,7 @@
 
     <TextView
         android:id="@+id/pesanan_saya"
-        app:layout_constraintTop_toBottomOf="@id/ly6"
+        app:layout_constraintTop_toBottomOf="@id/ly3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
