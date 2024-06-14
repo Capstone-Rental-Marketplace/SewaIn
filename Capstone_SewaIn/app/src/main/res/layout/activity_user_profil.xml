@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.UserProfil">
+
+    <LinearLayout
+        android:id="@+id/ly4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/baseline_arrow_back_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Profil Saya"
+            android:textSize="20dp"
+            android:fontFamily="@font/manropebold"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/out"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="160dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly5"
+        app:layout_constraintTop_toBottomOf="@id/ly4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pf"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="113dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userprofil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manropesemibold"
+                android:text="Nama Pengguna"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/manropemedium"
+                android:textSize="14dp"
+                android:text="Email Pengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_edit_profil"
+                android:layout_width="139dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/manropebold"
+                android:paddingVertical="0dp"
+                android:text="Edit Profil"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/ly5">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/store"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/manropesemibold"
+            android:text="Daftar Toko Anda"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pesanan_saya"
+        app:layout_constraintTop_toBottomOf="@id/ly6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/manropebold"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:text="Pesanan Saya"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/straightline"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-156dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
