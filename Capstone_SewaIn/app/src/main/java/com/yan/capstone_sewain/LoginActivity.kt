@@ -7,7 +7,13 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.yan.capstone_sewain.Api.ApiResponse
+import com.yan.capstone_sewain.Api.RetrofitClient
+import com.yan.capstone_sewain.Api.User
 import com.yan.capstone_sewain.admintoko.RegisterToko
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class LoginActivity : AppCompatActivity() {
 
@@ -36,25 +42,45 @@ class LoginActivity : AppCompatActivity() {
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Please fill out all fields", Toast.LENGTH_SHORT).show()
             } else {
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
+                login(email, password)
             }
         }
 
         forgetPasswordTextView.setOnClickListener {
-            // Handle forget password logic here
             Toast.makeText(this, "Forget Password clicked", Toast.LENGTH_SHORT).show()
         }
 
         registerTextView.setOnClickListener {
-            // Navigate to SignupActivity
             val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)
         }
         registerTextView1.setOnClickListener {
-            // Navigate to SignupActivity
             val intent = Intent(this, RegisterToko::class.java)
             startActivity(intent)
         }
+    }
+
+    private fun login(email: String, password: String) {
+        val user = User(email, "", password) // Ubah sesuai dengan model User yang digunakan
+        RetrofitClient.api.login(user).enqueue(object : Callback<ApiResponse> {
+            override fun onResponse(call: Call<ApiResponse>, response: Response<ApiResponse>) {
+                if (response.isSuccessful) {
+                    Toast.makeText(this@LoginActivity, "Login successful", Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                    startActivity(intent)
+                    finish() // Menutup activity login setelah berhasil login
+                } else {
+                    Toast.makeText(
+                        this@LoginActivity,
+                        "Login failed: ${response.errorBody()?.string()}",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+
+            override fun onFailure(call: Call<ApiResponse>, t: Throwable) {
+                Toast.makeText(this@LoginActivity, "Error: ${t.message}", Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 }

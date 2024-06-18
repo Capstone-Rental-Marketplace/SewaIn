@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Capstone_SewaIn"
         tools:targetApi="31">
         <activity
+            android:name=".admintoko.DetailPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".admintoko.DetailBarang"
+            android:exported="false" />
+        <activity
             android:name=".admintoko.TambahProduk"
             android:exported="false" />
         <activity
