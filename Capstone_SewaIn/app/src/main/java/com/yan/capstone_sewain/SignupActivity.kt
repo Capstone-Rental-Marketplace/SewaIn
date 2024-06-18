@@ -1,98 +1,81 @@
 package com.yan.capstone_sewain
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.yan.capstone_sewain.Api.ApiResponse
-import com.yan.capstone_sewain.Api.RetrofitClient
-import com.yan.capstone_sewain.Api.User
+import com.yan.capstone_sewain.Api.ApiService
+import com.yan.capstone_sewain.Api.model.RegisterRequest
+import com.yan.capstone_sewain.Api.model.RegisterResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
-private fun Any.enqueue(callback: Callback<ApiResponse>) {
-
-}
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class SignupActivity : AppCompatActivity() {
 
-    private lateinit var registerButton: Button
-    private lateinit var registerTextView: TextView
+    private lateinit var retrofit: Retrofit
+    private lateinit var apiService: ApiService
     private lateinit var fullnameEditText: EditText
     private lateinit var emailEditText: EditText
     private lateinit var passwordEditText: EditText
-    private lateinit var confirmPassEditText: EditText
-
-    private fun validateInputs(
-        username: String,
-        email: String,
-        password: String,
-        confirmPass: String
-    ): Boolean {
-        if (username.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPass.isEmpty()) {
-            Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
-            return false
-        }
-        return true
-    }
+    private lateinit var confirmPasswordEditText: EditText
+    private lateinit var registerButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
 
-        registerButton = findViewById(R.id.btn_R)
-        registerTextView = findViewById(R.id.txt_login)
         fullnameEditText = findViewById(R.id.fullname)
         emailEditText = findViewById(R.id.email)
         passwordEditText = findViewById(R.id.password)
-        confirmPassEditText = findViewById(R.id.confirmpass)
+        confirmPasswordEditText = findViewById(R.id.confirmpass)
+        registerButton = findViewById(R.id.btn_R)
 
-        registerTextView.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-        }
+        retrofit = Retrofit.Builder()
+            .baseUrl("https://sewain-api-user-5b25hvndba-et.a.run.app/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+
+        apiService = retrofit.create(ApiService::class.java)
 
         registerButton.setOnClickListener {
-            val username = fullnameEditText.text.toString().trim()
-            val email = emailEditText.text.toString().trim()
-            val password = passwordEditText.text.toString().trim()
-            val confirmPass = confirmPassEditText.text.toString().trim()
-
-            if (validateInputs(username, email, password, confirmPass)) {
-                if (password == confirmPass) {
-                    register(username,email, password)
-                } else {
-                    Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
-                }
-            }
+            registerUser()
         }
     }
 
-    private fun register(username: String, email: String, password: String) {
-        val user = User(username, email, password)
-        RetrofitClient.api.signup(user).enqueue(object : Callback<ApiResponse> {
-            override fun onResponse(call: Call<ApiResponse>, response: Response<ApiResponse>) {
-                if (response.isSuccessful) {
-                    Toast.makeText(this@SignupActivity, "Registration successful", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this@SignupActivity, LoginActivity::class.java)
-                    startActivity(intent)
-                    finish()
-                } else {
-                    val errorBody = response.errorBody()?.string()
-                    Log.e("SignupActivity", "Registration failed: $errorBody")
-                    Toast.makeText(this@SignupActivity, "Registration failed: $errorBody", Toast.LENGTH_SHORT).show()
-                }
-            }
+    private fun registerUser() {
+        val fullname = fullnameEditText.text.toString().trim()
+        val email = emailEditText.text.toString().trim()
+        val password = passwordEditText.text.toString().trim()
+        val confirmPassword = confirmPasswordEditText.text.toString().trim()
 
-            override fun onFailure(call: Call<ApiResponse>, t: Throwable) {
-                Log.e("SignupActivity", "Error: ${t.message}", t)
-                Toast.makeText(this@SignupActivity, "Error: ${t.message}", Toast.LENGTH_SHORT).show()
-            }
-        })
+        if (password == confirmPassword) {
+            val request = RegisterRequest(fullname, email, password)
+
+            apiService.registerUser(request).enqueue(object : Callback<RegisterResponse> {
+                override fun onResponse(call: Call<RegisterResponse>, response: Response<RegisterResponse>) {
+                    if (response.isSuccessful && response.body() != null) {
+                        val registerResponse = response.body()!!
+                        if (registerResponse.success) {
+                            Toast.makeText(this@SignupActivity, "Registration Successful", Toast.LENGTH_SHORT).show()
+                            // Handle successful registration
+                        } else {
+                            Toast.makeText(this@SignupActivity, registerResponse.message, Toast.LENGTH_SHORT).show()
+                        }
+                    } else {
+                        Toast.makeText(this@SignupActivity, "Registration Failed", Toast.LENGTH_SHORT).show()
+                    }
+                }
+
+                override fun onFailure(call: Call<RegisterResponse>, t: Throwable) {
+                    Toast.makeText(this@SignupActivity, t.message, Toast.LENGTH_SHORT).show()
+                }
+            })
+        } else {
+            Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
+        }
     }
 }

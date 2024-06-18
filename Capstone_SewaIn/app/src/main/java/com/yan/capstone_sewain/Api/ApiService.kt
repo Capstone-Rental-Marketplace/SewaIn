@@ -1,15 +1,19 @@
 package com.yan.capstone_sewain.Api
 
+import com.yan.capstone_sewain.Api.model.LoginRequest
+import com.yan.capstone_sewain.Api.model.LoginResponse
+import com.yan.capstone_sewain.Api.model.RegisterResponse
+import com.yan.capstone_sewain.Api.model.RegisterRequest
 import retrofit2.Call
 import retrofit2.http.Body
-import retrofit2.http.GET
 import retrofit2.http.POST
 
-    interface ApiService {
-        @POST("auth/signup")
-        fun signup(@Body user: User): Call<ApiResponse>
+interface ApiService {
+    @POST("register")
+    fun registerUser(@Body registerRequest: RegisterRequest): Call<RegisterResponse>
 
-        @GET("auth/login")
-        fun login(@Body user: User): Call<ApiResponse>
-    }
+    @POST("login")
+    fun loginUser(@Body loginRequest: LoginRequest): Call<LoginResponse>
+}
+
 
