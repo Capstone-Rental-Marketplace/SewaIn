@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
+import uvicorn
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -61,7 +62,7 @@ scaler_user.fit(encoded_df_user[num_user_columns])
 scaler_item.fit(encoded_df_item[num_item_columns])
 encoded_df_item[num_item_columns] = scaler_item.transform(encoded_df_item[num_item_columns])
 
-@app.post("/recommend")
+@app.post("/recommend/")
 async def recommend(user_input: UserInput):
     # Prepare new data for prediction
     new_data = {
@@ -127,7 +128,5 @@ async def recommend(user_input: UserInput):
 
     return {"recommendations": recommendations}
 
-# To run the FastAPI app
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
