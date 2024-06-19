@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Capstone_SewaIn</string>
+    <string name="app_name">SewaIn</string>
     <string name="fullname">Enter Your Full Name</string>
     <string name="email">Enter Your Email</string>
     <string name="password">Create Password</string>

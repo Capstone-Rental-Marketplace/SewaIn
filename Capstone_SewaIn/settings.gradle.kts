@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Capstone_SewaIn"
+rootProject.name = "SewaIn"
 include(":app")
