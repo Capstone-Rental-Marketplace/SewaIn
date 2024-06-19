@@ -110,6 +110,11 @@
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/trash"
+
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
