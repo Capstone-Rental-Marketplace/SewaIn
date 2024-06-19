@@ -75,7 +75,7 @@
         android:layout_width="139dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="548dp"
+        android:layout_marginBottom="304dp"
         android:background="@drawable/border"
         android:fontFamily="@font/manropebold"
         android:paddingVertical="0dp"
