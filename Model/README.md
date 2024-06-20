@@ -17,7 +17,7 @@ The first graph represents the MSE over the training epochs, showing how the mod
 The second image displays the latest MSE values for both training and validation sets.
 
 **Latest MSE Values:**
-- **Training MSE:** 0.025
-- **Validation MSE:** 0.030
+- **Training MSE:** 0.0013
+- **Validation MSE:** 0.0051
 
 These values illustrate the model's accuracy during training and validation phases, helping us understand its performance and reliability.
