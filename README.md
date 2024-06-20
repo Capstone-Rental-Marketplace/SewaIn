@@ -16,54 +16,44 @@ transparent information, improve service quality, and support local businesses, 
 
 <table>
   <tr>
-    <th>Group ID</th>
-    <th>No</th>
     <th>Student ID</th>
     <th>Name</th>
     <th>University</th>
   </tr>
   <tr>
-    <td rowspan="7">C241-PS147</td>
-    <td>1</td>
-    <td>C265D4KY0147</td>
-    <td>Daffa Afif</td>
-    <td>Universitas Muhammadiyah Riau</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>C253D4KY0725</td>
-    <td>I Nyoman Bagus Arya Wirianda</td>
-    <td>Universitas Mataram</td>
-  </tr>
-  <tr>
-    <td>3</td>
     <td>M006D4KY1582</td>
     <td>Ahmad Fahrezy Sanny</td>
     <td>Universitas Brawijaya</td>
   </tr>
   <tr>
-    <td>4</td>
     <td>M253D4KY1606</td>
     <td>Hifric Aldar Ramadhan</td>
     <td>Universitas Mataram</td>
   </tr>
   <tr>
-    <td>5</td>
     <td>M006D4KY2454</td>
     <td>Willy Aidil Basrean Hasibuan</td>
     <td>Universitas Brawijaya</td>
   </tr>
   <tr>
-    <td>6</td>
-    <td>A253D4KY3703</td>
-    <td>Yan Saputra</td>
-    <td>Universitas Mataram</td>
+    <td>C265D4KY0147</td>
+    <td>Daffa Afif</td>
+    <td>Universitas Muhammadiyah Riau</td>
   </tr>
   <tr>
-    <td>7</td>
+    <td>C253D4KY0725</td>
+    <td>I Nyoman Bagus Arya Wirianda</td>
+    <td>Universitas Mataram</td>
+  </tr>
+   <tr>
     <td>A006D4KY4553</td>
     <td>Fahru Setiawan Iskandar</td>
     <td>Universitas Brawijaya</td>
+  </tr>
+  <tr>
+    <td>A253D4KY3703</td>
+    <td>Yan Saputra</td>
+    <td>Universitas Mataram</td>
   </tr>
 </table>
 
