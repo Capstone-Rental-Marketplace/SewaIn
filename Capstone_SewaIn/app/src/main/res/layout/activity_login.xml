@@ -63,7 +63,8 @@
             android:backgroundTint="@color/white"
             android:fontFamily="@font/manroperegular"
             android:hint="Password"
-            android:paddingLeft="10dp" />
+            android:paddingLeft="10dp"
+            android:inputType="textPassword" />
 
         <TextView
             android:layout_gravity="end"

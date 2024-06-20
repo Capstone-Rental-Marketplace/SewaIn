@@ -22,9 +22,17 @@ class SearchActivity : AppCompatActivity() {
 
         // Initialize the sample data
         vehicles = listOf(
-            Vehicle(R.drawable.motor1, "Motor A", "Rp. 100.000"),
-            Vehicle(R.drawable.motor1, "Motor B", "Rp. 200.000"),
-            Vehicle(R.drawable.motor1, "Motor C", "Rp. 300.000")
+            Vehicle(R.drawable.nmax, "Motor A", "Rp. 100.000"),
+            Vehicle(R.drawable.nmax, "Motor B", "Rp. 200.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000")
+
         )
 
         vehicleAdapter = VehicleAdapter(vehicles)

@@ -88,7 +88,8 @@
                         android:backgroundTint="@color/white"
                         android:fontFamily="@font/manroperegular"
                         android:hint="@string/password"
-                        android:paddingLeft="10dp" />
+                        android:paddingLeft="10dp"
+                        android:inputType="textPassword"/>
 
                     <EditText
                         android:id="@+id/confirmpass"
@@ -99,7 +100,8 @@
                         android:backgroundTint="@color/white"
                         android:fontFamily="@font/manroperegular"
                         android:hint="@string/confirmpass"
-                        android:paddingLeft="10dp" />
+                        android:paddingLeft="10dp"
+                        android:inputType="textPassword"/>
                 </LinearLayout>
 
                 <Button

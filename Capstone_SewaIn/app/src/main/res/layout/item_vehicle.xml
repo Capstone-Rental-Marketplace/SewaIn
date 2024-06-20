@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:cardElevation="4dp"
-    android:layout_margin="15dp">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    app:cardElevation="4dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -14,39 +16,61 @@
 
         <ImageView
             android:id="@+id/vehicle_image"
-            android:layout_width="match_parent"
+            android:layout_width="120dp"
             android:layout_height="120dp"
+            android:contentDescription="@string/gambarmotor"
+            android:padding="8dp"
             android:scaleType="centerCrop"
             app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/gambarmotor"
+            app:layout_constraintStart_toStartOf="parent"
             tools:srcCompat="@color/blue" />
 
-        <TextView
-            android:id="@+id/vehicle_name"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vehicle_image"
-            android:layout_marginTop="12dp"
-            tools:text="Merk Motor"
-            android:layout_marginHorizontal="8dp"
-            android:textSize="16sp"
-            android:fontFamily="@font/manropesemibold" />
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/vehicle_image"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/tv_item_description"
-            android:layout_width="0dp"
+            <TextView
+                android:id="@+id/vehicle_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manropesemibold"
+                android:textSize="20dp"
+                tools:text="Merk Motor" />
+
+            <TextView
+                android:id="@+id/tv_item_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/manropebold"
+                android:textSize="16dp"
+                tools:text="Rp. 100.000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="184dp"
-            android:layout_marginTop="12dp"
-            android:ellipsize="end"
-            android:fontFamily="@font/manropebold"
-            android:gravity="center"
-            android:textSize="16dp"
-            app:layout_constraintStart_toEndOf="@+id/vehicle_name"
-            app:layout_constraintTop_toBottomOf="@+id/vehicle_image"
-            tools:text="Rp. 100.000" />
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
 
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="4.5"
+                android:textSize="11sp" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -2,14 +2,10 @@ package com.yan.capstone_sewain.profile
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.yan.capstone_sewain.LoginActivity
@@ -37,9 +33,12 @@ class UserProfil : AppCompatActivity() {
 
         // Initialize the sample data
         vehicles = listOf(
-            Vehicle(R.drawable.motor1, "Motor A", "Rp. 100.000"),
-            Vehicle(R.drawable.motor1, "Motor B", "Rp. 200.000"),
-            Vehicle(R.drawable.motor1, "Motor C", "Rp. 300.000")
+            Vehicle(R.drawable.nmax, "Motor A", "Rp. 100.000"),
+            Vehicle(R.drawable.nmax, "Motor B", "Rp. 200.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor D", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor E", "Rp. 300.000"),
+            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000")
         )
 
         vehicleAdapter = VehicleAdapter(vehicles)

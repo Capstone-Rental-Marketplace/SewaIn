@@ -4,11 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.yan.capstone_sewain.LoginActivity
 import com.yan.capstone_sewain.R
-import com.yan.capstone_sewain.profile.UserProfil
 
 class VerfiyTokoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +15,7 @@ class VerfiyTokoActivity : AppCompatActivity() {
         val done = findViewById<Button>(R.id.btn_R)
 
         done.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, ProfilToko::class.java)
             startActivity(intent)
         }
     }
