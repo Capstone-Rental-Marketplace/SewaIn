@@ -2,6 +2,7 @@ package com.yan.capstone_sewain
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -60,5 +61,9 @@ class SignupActivity : AppCompatActivity() {
                 Log.e("SignupActivity", "Registration failed: response is null")
             }
         })
+    }
+
+    fun onBackButtonClicked(view: View) {
+        onBackPressed()
     }
 }

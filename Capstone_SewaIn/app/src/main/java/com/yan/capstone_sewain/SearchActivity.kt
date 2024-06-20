@@ -1,6 +1,7 @@
 package com.yan.capstone_sewain
 
 import android.os.Bundle
+import android.view.View
 import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -53,4 +54,9 @@ class SearchActivity : AppCompatActivity() {
         vehicleAdapter = VehicleAdapter(filteredVehicles)
         recyclerView.adapter = vehicleAdapter
     }
+
+    fun onBackButtonClicked(view: View) {
+        onBackPressed()
+    }
+
 }

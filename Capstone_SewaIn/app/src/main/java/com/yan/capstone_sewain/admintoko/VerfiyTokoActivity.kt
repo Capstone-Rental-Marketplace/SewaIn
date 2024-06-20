@@ -1,10 +1,9 @@
 package com.yan.capstone_sewain.admintoko
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.yan.capstone_sewain.R
 
 class VerfiyTokoActivity : AppCompatActivity() {
@@ -12,5 +11,9 @@ class VerfiyTokoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_verfiy_toko)
+    }
+
+    fun onBackButtonClicked(view: View) {
+        onBackPressed()
     }
 }

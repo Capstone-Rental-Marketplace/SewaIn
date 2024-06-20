@@ -27,7 +27,8 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/baseline_arrow_back_24" />
+                android:src="@drawable/baseline_arrow_back_24"
+                android:onClick="onBackButtonClicked"/>
 
             <TextView
                 android:layout_width="wrap_content"

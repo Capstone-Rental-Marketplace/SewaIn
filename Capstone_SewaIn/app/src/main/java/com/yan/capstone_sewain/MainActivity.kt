@@ -2,14 +2,24 @@ package com.yan.capstone_sewain
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
+import com.yan.capstone_sewain.R
+import com.yan.capstone_sewain.SearchActivity
+import com.yan.capstone_sewain.profile.UserProfil
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val bottomMeImageView = findViewById<ImageView>(R.id.bottom_me)
+        bottomMeImageView.setOnClickListener {
+            val intent = Intent(this, UserProfil::class.java)
+            startActivity(intent)
+        }
 
         val searchView = findViewById<SearchView>(R.id.searchView)
 
@@ -37,5 +47,7 @@ class MainActivity : AppCompatActivity() {
                 return false
             }
         })
+
     }
+
 }
