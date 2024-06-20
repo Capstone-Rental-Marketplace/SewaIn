@@ -134,7 +134,7 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:id="@+id/regist_toko"
+            android:id="@+id/lihat_toko"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -154,9 +154,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:fontFamily="@font/manropesemibold"
-                android:text="Daftar Toko Anda"
+                android:text="Lihat Toko Anda"
                 android:textColor="@color/blue" />
-
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -204,7 +203,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:padding="8dp"/>
+                android:padding="8dp" />
 
         </LinearLayout>
 

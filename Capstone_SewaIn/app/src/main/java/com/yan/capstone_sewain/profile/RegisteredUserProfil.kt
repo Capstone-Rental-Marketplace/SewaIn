@@ -1,50 +1,34 @@
 package com.yan.capstone_sewain.profile
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.yan.capstone_sewain.LoginActivity
 import com.yan.capstone_sewain.R
-import com.yan.capstone_sewain.Vehicle
-import com.yan.capstone_sewain.VehicleAdapter
-import com.yan.capstone_sewain.admintoko.RegisterToko
+import com.yan.capstone_sewain.admintoko.ProfilToko
 
-class UserProfil : AppCompatActivity() {
-
-    private lateinit var vehicleAdapter: VehicleAdapter
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var vehicles: List<Vehicle>
-
+class RegisteredUserProfil : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_profil)
 
         val btnBack = findViewById<ImageView>(R.id.btn_back)
         val btnEdit = findViewById<Button>(R.id.btn_edit_profil)
-        val regToko = findViewById<LinearLayout>(R.id.regist_toko)
         val logOut = findViewById<ImageView>(R.id.logout)
+        val profilToko = findViewById<LinearLayout>(R.id.lihat_toko)
 
-        recyclerView = findViewById(R.id.recycler_view)
-
-        // Initialize the sample data
-        vehicles = listOf(
-            Vehicle(R.drawable.motor1, "Motor A", "Rp. 100.000"),
-            Vehicle(R.drawable.motor1, "Motor B", "Rp. 200.000"),
-            Vehicle(R.drawable.motor1, "Motor C", "Rp. 300.000")
-        )
-
-        vehicleAdapter = VehicleAdapter(vehicles)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = vehicleAdapter
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
 
         btnBack.setOnClickListener {
             onBackPressed()
@@ -61,9 +45,10 @@ class UserProfil : AppCompatActivity() {
             startActivity(intent)
         }
 
-        regToko.setOnClickListener {
-            val intent = Intent(this, RegisterToko::class.java)
+        profilToko.setOnClickListener {
+            val intent = Intent(this, ProfilToko::class.java)
             startActivity(intent)
         }
+
     }
 }

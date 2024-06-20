@@ -16,13 +16,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val bottomMeImageView = findViewById<ImageView>(R.id.bottom_me)
+        val searchView = findViewById<SearchView>(R.id.searchView)
+
         bottomMeImageView.setOnClickListener {
             val intent = Intent(this, UserProfil::class.java)
             startActivity(intent)
         }
-
-        val searchView = findViewById<SearchView>(R.id.searchView)
-
         searchView.setOnClickListener {
             val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
@@ -47,7 +46,5 @@ class MainActivity : AppCompatActivity() {
                 return false
             }
         })
-
     }
-
 }

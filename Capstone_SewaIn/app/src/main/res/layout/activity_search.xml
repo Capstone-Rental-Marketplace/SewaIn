@@ -53,6 +53,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:padding="8dp" />
 
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
