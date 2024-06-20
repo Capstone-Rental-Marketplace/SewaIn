@@ -3,6 +3,6 @@ Content-based filtering is a recommendation system technique that suggests items
 <br/>
 In the model created, several features are used to obtain a more complex model with features in the form of vehicle type, vehicle brand, and vehicle color.
 
-<br/>
-![Cuplikan layar 2024-06-21 063600](https://github.com/Capstone-Rental-Marketplace/SewaIn/assets/114629246/ac760a65-df1b-49a0-b4cb-de64afca54a9.png)
+## MSE
+![mse](https://github.com/Capstone-Rental-Marketplace/SewaIn/assets/114629246/f8b44826-9b3e-4580-a924-2d0df01d1600)
 
