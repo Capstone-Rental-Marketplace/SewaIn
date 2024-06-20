@@ -5,4 +5,5 @@ In the model created, several features are used to obtain a more complex model w
 
 ## MSE
 ![mse](https://github.com/Capstone-Rental-Marketplace/SewaIn/assets/114629246/f8b44826-9b3e-4580-a924-2d0df01d1600)
+![Cuplikan layar 2024-06-21 064414](https://github.com/Capstone-Rental-Marketplace/SewaIn/assets/114629246/b1fe398f-8ddc-4341-b318-eedf9b6ee55e)
 
