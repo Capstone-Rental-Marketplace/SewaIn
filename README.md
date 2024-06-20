@@ -1,4 +1,4 @@
-##APi User
+## APi User
 
 Deskripsi: Endpoint ini digunakan untuk autentikasi pengguna (login) ke sistem Sewain.
 Metode: POST
