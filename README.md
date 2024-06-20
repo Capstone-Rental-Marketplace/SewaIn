@@ -18,42 +18,42 @@ transparent information, improve service quality, and support local businesses, 
   <tr>
     <th>Student ID</th>
     <th>Name</th>
-    <th>University</th>
+    <th>Role</th>
   </tr>
   <tr>
     <td>M006D4KY1582</td>
     <td>Ahmad Fahrezy Sanny</td>
-    <td>Universitas Brawijaya</td>
+    <td>Machine Learning</td>
   </tr>
   <tr>
     <td>M253D4KY1606</td>
     <td>Hifric Aldar Ramadhan</td>
-    <td>Universitas Mataram</td>
+    <td>Machine Learning</td>
   </tr>
   <tr>
     <td>M006D4KY2454</td>
     <td>Willy Aidil Basrean Hasibuan</td>
-    <td>Universitas Brawijaya</td>
+    <td>Machine Learning</td>
   </tr>
   <tr>
     <td>C265D4KY0147</td>
     <td>Daffa Afif</td>
-    <td>Universitas Muhammadiyah Riau</td>
+    <td>Cloud Computing</td>
   </tr>
   <tr>
     <td>C253D4KY0725</td>
     <td>I Nyoman Bagus Arya Wirianda</td>
-    <td>Universitas Mataram</td>
+    <td>Cloud Computing</td>
   </tr>
    <tr>
     <td>A006D4KY4553</td>
     <td>Fahru Setiawan Iskandar</td>
-    <td>Universitas Brawijaya</td>
+    <td>Mobile Development</td>
   </tr>
   <tr>
     <td>A253D4KY3703</td>
     <td>Yan Saputra</td>
-    <td>Universitas Mataram</td>
+    <td>Mobile Development</td>
   </tr>
 </table>
 
