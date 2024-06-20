@@ -18,7 +18,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <ImageView
@@ -34,14 +34,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:layout_marginBottom="30dp"
                 android:layout_marginEnd="32dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
                 android:fontFamily="@font/manropebold"
                 android:text="Detail Barang"
                 android:textAlignment="center"
                 android:textColor="@color/blue"
-                android:textSize="24dp"
-                android:layout_weight="1" />
+                android:textSize="24dp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -110,12 +110,14 @@
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
-                    <ImageView
-                        android:layout_width="35dp"
-                        android:layout_height="35dp"
-                        android:src="@drawable/trash"
-
                 </LinearLayout>
+
+                <ImageView
+                    android:layout_marginStart="60dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/trash" />
+
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
