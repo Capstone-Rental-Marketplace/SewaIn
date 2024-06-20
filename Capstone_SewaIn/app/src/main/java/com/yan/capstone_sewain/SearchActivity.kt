@@ -22,18 +22,10 @@ class SearchActivity : AppCompatActivity() {
 
         // Initialize the sample data
         vehicles = listOf(
-            Vehicle(R.drawable.nmax, "Motor A", "Rp. 100.000"),
-            Vehicle(R.drawable.nmax, "Motor B", "Rp. 200.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000"),
-            Vehicle(R.drawable.nmax, "Motor C", "Rp. 300.000")
-
-        )
+            Vehicle(R.drawable.nmaxlarger, "NMax1", "Rp. 200.000", "Rental Hati", 4.1f,"Rental Hati","Denpasar1"),
+            Vehicle(R.drawable.nmaxlarger, "Nmax2", "Rp. 100.000", "Rental Motor", 4.7f,"Rental Hati","kota baru"),
+            Vehicle(R.drawable.nmaxlarger, "Nmax3", "Rp. 300.000", "Rental Lah", 4.4f,"Rental Hati","Denpasar"),
+            )
 
         vehicleAdapter = VehicleAdapter(vehicles)
         recyclerView.layoutManager = LinearLayoutManager(this)

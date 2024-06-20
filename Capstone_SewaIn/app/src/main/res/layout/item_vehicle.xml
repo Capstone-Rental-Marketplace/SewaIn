@@ -26,6 +26,7 @@
             tools:srcCompat="@color/blue" />
 
         <LinearLayout
+            android:id="@+id/ly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -48,6 +49,36 @@
                 android:fontFamily="@font/manropebold"
                 android:textSize="16dp"
                 tools:text="Rp. 100.000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            app:layout_constraintStart_toEndOf="@+id/vehicle_image"
+            app:layout_constraintTop_toBottomOf="@+id/ly">
+
+            <ImageView
+                android:contentDescription="@string/icontoko"
+                android:src="@drawable/user"
+                android:layout_width="15dp"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_toko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_marginStart="4dp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:fontFamily="@font/manropesemibold"
+                tools:text="Rental Makmur"/>
+
+
         </LinearLayout>
 
         <LinearLayout
@@ -58,6 +89,15 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
+            <TextView
+                android:layout_marginEnd="12dp"
+                android:id="@+id/tv_location"
+                tools:text="Lokasi"
+                android:textSize="12dp"
+                android:fontFamily="@font/manroperegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <ImageView
                 android:id="@+id/star"
                 android:layout_width="15dp"
@@ -65,10 +105,11 @@
                 android:src="@drawable/star" />
 
             <TextView
+                android:id="@+id/tv_rating"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="4.5"
+                tools:text="4.5"
                 android:textSize="11sp" />
         </LinearLayout>
 
