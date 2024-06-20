@@ -25,7 +25,6 @@ class DetailBarangUser : AppCompatActivity() {
         val vehicleImageResId = intent.getIntExtra("VEHICLE_IMAGE", 0)
         val vehicleName = intent.getStringExtra("VEHICLE_NAME")
         val vehicleDescription = intent.getStringExtra("VEHICLE_DESCRIPTION")
-        val vehiclePrice = intent.getStringExtra("VEHICLE_PRICE")
         val vehicleToko = intent.getStringExtra("VEHICLE_TOKO")
         val vehicleLocation = intent.getStringExtra("VEHICLE_LOCATION")
 
@@ -48,7 +47,6 @@ class DetailBarangUser : AppCompatActivity() {
             val intent = Intent(this, Checkout::class.java).apply {
                 putExtra("VEHICLE_IMAGE", vehicleImageResId)
                 putExtra("VEHICLE_NAME", vehicleName)
-                putExtra("VEHICLE_PRICE", vehicleDescription)
                 putExtra("TOKO_NAME", vehicleToko)
             }
             startActivity(intent)
