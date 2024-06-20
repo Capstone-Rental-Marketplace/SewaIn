@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Checkout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:onClick="onBackButtonClicked" />
+
+            <TextView
+                android:id="@+id/txt_dtl_barang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/manropebold"
+                android:text="CheckOut"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView">
+
+        <LinearLayout
+            android:id="@+id/detail_barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:text="Kendaraan Pesanan Anda"
+                android:fontFamily="@font/manropebold"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/foto_barang"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/nmax" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nama_kendaraan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/manropebold"
+                        android:text="Yamaha Nmax"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/harga_kendaraan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
+                        android:fontFamily="@font/manropesemibold"
+                        android:text="Rp.95.000"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        app:layout_constraintStart_toEndOf="@+id/vehicle_image"
+                        app:layout_constraintTop_toBottomOf="@+id/harga_kendaraan">
+
+                        <ImageView
+                            android:contentDescription="@string/icontoko"
+                            android:src="@drawable/user"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_toko"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginStart="4dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/manropesemibold"
+                            tools:text="Rental Makmur"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@id/cardView1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ly_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:text="Detail Pinjaman"
+                android:fontFamily="@font/manropebold"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Tanggal Pinjaman"
+                android:fontFamily="@font/manropebold"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border_follow" />
+
+                <View
+                    android:layout_width="123dp"
+                    android:layout_gravity="center"
+                    android:layout_height="11dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/straightline"
+                    app:layout_constraintTop_toBottomOf="@id/pesanan_saya"
+                    tools:layout_editor_absoluteX="1dp" />
+
+                <EditText
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border_follow" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Pembayaran"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/manropebold"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:fontFamily="@font/manropebold"
+                android:textSize="16dp"
+                android:padding="8dp"
+                android:background="@drawable/border_follow"
+                android:text="Cash On Delivery (COD)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ly_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ly1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/total_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/manropebold"
+                    android:text="Total"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/total_payment_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/manropebold"
+                    android:text="Rp 95.000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_checkout"
+                    android:layout_width="181dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="90dp"
+                    android:background="@drawable/border"
+                    android:fontFamily="@font/manropebold"
+                    android:paddingVertical="0dp"
+                    android:text="Checkout"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:layout_constraintTop_toBottomOf="@id/cardView3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

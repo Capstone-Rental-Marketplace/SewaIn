@@ -68,13 +68,6 @@
                 android:layout_height="55dp"
                 android:src="@drawable/user" />
 
-            <ImageView
-                android:id="@+id/bottom_checklist"
-                android:src="@drawable/checklist"
-                android:layout_width="55dp"
-                android:layout_marginStart="8dp"
-                android:layout_height="55dp"/>
-
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

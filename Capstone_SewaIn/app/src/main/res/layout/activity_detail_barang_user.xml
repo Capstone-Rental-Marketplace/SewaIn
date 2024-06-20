@@ -227,7 +227,7 @@
         android:background="@drawable/border"
         android:fontFamily="@font/manropebold"
         android:paddingVertical="0dp"
-        android:text="CHECKOUT"
+        android:text="Checkout"
         android:textColor="@color/white"
         android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
