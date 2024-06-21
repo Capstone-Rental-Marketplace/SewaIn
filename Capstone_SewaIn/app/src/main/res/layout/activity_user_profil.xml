@@ -35,12 +35,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="16dp"
-                android:text="Profil Saya"
-                android:textSize="20sp"
                 android:fontFamily="@font/manropebold"
+                android:text="Profil Saya"
                 android:textAlignment="center"
-                android:layout_gravity="center" />
+                android:textSize="20dp" />
 
             <ImageView
                 android:id="@+id/logout"

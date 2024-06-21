@@ -19,14 +19,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="16dp">
 
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
-                android:layout_marginStart="16dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:focusableInTouchMode="true"
@@ -37,14 +38,10 @@
                 android:id="@+id/txt_dtl_barang"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="32dp"
-                android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/manropebold"
-                android:text="CheckOut"
+                android:text="Check Out"
                 android:textAlignment="center"
-                android:textColor="@color/blue"
                 android:textSize="24dp" />
 
         </LinearLayout>
@@ -99,7 +96,7 @@
                         android:id="@+id/nama_kendaraan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/manropebold"
+                        android:fontFamily="@font/manropeextrabold"
                         android:text="Yamaha Nmax"
                         android:textSize="24sp" />
 
@@ -191,7 +188,7 @@
                     android:background="@drawable/border_follow" />
 
                 <View
-                    android:layout_width="123dp"
+                    android:layout_width="75dp"
                     android:layout_gravity="center"
                     android:layout_height="11dp"
                     android:layout_marginStart="16dp"

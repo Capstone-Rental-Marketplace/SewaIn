@@ -31,7 +31,6 @@
             android:layout_margin="16dp"
             android:text="Profil Toko Saya"
             android:textSize="20dp"
-            android:textColor="@color/blue"
             android:fontFamily="@font/manropebold"
             android:textAlignment="center"
             android:layout_gravity="center"/>
@@ -145,16 +144,6 @@
                 android:textColor="@color/blue"
                 android:textSize="20sp"
                 android:text="Produk Saya" />
-
-            <View
-                android:id="@+id/line1"
-                android:layout_width="match_parent"
-                android:layout_height="11dp"
-                android:background="@drawable/straightline"
-                app:layout_constraintTop_toBottomOf="@id/pesanan_saya"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                tools:layout_editor_absoluteX="1dp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view"

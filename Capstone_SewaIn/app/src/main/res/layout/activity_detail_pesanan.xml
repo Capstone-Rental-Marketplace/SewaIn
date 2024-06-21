@@ -16,14 +16,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="16dp">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="30dp"
                 android:src="@drawable/baseline_arrow_back_24"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -33,13 +33,9 @@
                 android:id="@+id/txt_dtl_pesanan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginEnd="32dp"
                 android:fontFamily="@font/manropebold"
                 android:text="Detail Pesanan"
                 android:textAlignment="center"
-                android:textColor="@color/blue"
                 android:textSize="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/imageView"
