@@ -37,9 +37,9 @@ class DetailBarangUser : AppCompatActivity() {
 
         vehicleImage.setImageResource(vehicleImageResId)
         vehicleNameTextView.text = vehicleName
-        vehicleDescriptionTextView.text = vehicleDescription
         tokoNameTextView.text = vehicleToko
         lokasiVendorTextView.text = vehicleLocation
+        vehicleDescriptionTextView.text = vehicleDescription
 
         // Set the click listener for the checkout button
         val checkoutButton: Button = findViewById(R.id.btn_R)
@@ -47,6 +47,7 @@ class DetailBarangUser : AppCompatActivity() {
             val intent = Intent(this, Checkout::class.java).apply {
                 putExtra("VEHICLE_IMAGE", vehicleImageResId)
                 putExtra("VEHICLE_NAME", vehicleName)
+                putExtra("VEHICLE_DESCRIPTION", vehicleDescription)
                 putExtra("TOKO_NAME", vehicleToko)
             }
             startActivity(intent)
