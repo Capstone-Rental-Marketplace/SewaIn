@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Team Members](#team-members)
-
+- [Project Architecture](#project-architecture)
 
 ## Description
 
@@ -56,5 +56,10 @@ transparent information, improve service quality, and support local businesses, 
     <td>Mobile Development</td>
   </tr>
 </table>
+
+## Project Architecture
+
+![Cuplikan layar 2024-06-21 152932](https://github.com/Capstone-Rental-Marketplace/SewaIn/assets/114629246/d778538a-81e2-4825-9614-4fc68efeb6b8)
+
 
 
